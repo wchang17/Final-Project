@@ -1,7 +1,7 @@
 var slideIndex = 0;
 showSlides();
 
-$(document).ready(function(){
+$(document).ready(function() {
 	$('.mySlides').css("display", "none")
 	});
 
