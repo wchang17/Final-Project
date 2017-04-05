@@ -2,19 +2,21 @@
 <html>
 <head>
 <div class='logo'>Debby's Portfolio</div>
+
+
 <div class='navLinks'>
-	<a herf="">About Me</a>
-	<a herf="">Resume</a>
-	<a herf="">Updates</a>
-	<a herf="">Get In Touch</a>
+	<nav>
+		<a href="#aboutme">About Me</a>
+		<a href="#contact">Get In Touch</a>
+		<a href="resume.html">Resume</a>
+		<a href="blog.html">Blog</a>
+	</nav>
 </div>
 <div class='line'></div>
 <link rel="stylesheet" href= "portfolioStyle.css" type= "text/css" />
 </head>
 <body>
-		<!-- <div class ='quote'>
-		<p>"Blah Blah Blah Blah Blah Blah Blah Blah"</p>
-		</div> -->
+
 <div class="slideshow-container">
 
 	<div class="mySlides fade">
@@ -22,7 +24,7 @@
 	</div>
 
 	<div class="mySlides fade">
-	  <img src="IMG_2484.jpg" style="width:100%">
+	  <img src="IMG_2383.jpg" style="width:100%">
 	</div>
 
 	<div class="mySlides fade">
@@ -36,41 +38,47 @@
 <div class ='aboutme'>
 
 	<div class='title'>
-	<h1>It's All About Me</h1>
+	<h1 id= "aboutme">HELLO</h1>
 	</div>
 	<div class ='intro'>
-	<p>Block of text</p>
+	<p>Writing, editing, coding! I do it all! I'm a professional technical writer who loves to write and travel. I kickstarted my career as a technical writer at a small startup company and I've never looked back. I've been working in the technology industry for 4+ years. My strengths include content strategy, writing and web development. I enjoy outdoor activities but also a good book.</p>
 	<!-- Add Slide Show -->
 	</div>
+	<div class="profpic"><img src="aboutMe.jpg"></div>
 </div>
 
 <div class='contact'>
 	<div class='form'>
-	<h1>Get in Touch</h1>
-	Name<input type="text" name="name"><br>
-	Email<input type="email" name="email"><br>
+		<h1 id ="contact">Get in Touch</h1>
+		Name<input type="text" name="name"><br>
+		Email<input type="email" name="email"><br>
+		<div class ="comments">
+		<p>Comments:</p>
+		<input type="text" name="comment" height="80"><br>
+		</div>
+		<button>Submit</button>
 	</div>
-<div class ='followme'>
-	<p>Follow me on Instagram</p>
+	<div class ='followme'>
+		<!-- <p>Follow me on Instagram</p> -->
+		<img src="monet.jpg">
+	</div>
 </div>
-</div>
+<script src='http://code.jquery.com/jquery-latest.min.js'></script>
 	<script src= "landingPage.js"></script>
-	<script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
 	
 
 </body>
 <footer>
 	<h4>Let's Hang Out</h4>
 	<div class='footerLinks'>
-		<nav>
-		<a herf="">LinkedIn</a>
-		<a herf="">Instagram</a>
-		<a herf="">Facebook</a>
-		</nav>
+<!-- 		<a herf="https://www.linkedin.com/in/debby-chang-605a5176">LinkedIn</a>
+		<a herf="https://www.instagram.com/wchang90/">Instagram</a>
+		<a herf="https://google.com">Facebook</a> -->
+		<a href="https://www.linkedin.com/in/debby-chang-605a5176">LinkedIn</a>
+		<a href="https://www.instagram.com/wchang90/">Instagram</a>
 	</div>
+<!-- 
+	<a href="https://www.linkedin.com/in/debby-chang-605a5176">TEST</a> -->
 
 </footer>
 </html>

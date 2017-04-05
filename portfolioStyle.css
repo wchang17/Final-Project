@@ -8,7 +8,6 @@
 
 a {
 	margin: 20px 10px 20px 10px;
-	text-align: center;
 	color: gray;
 }
 
@@ -33,7 +32,7 @@ a:hover {
 	/*background-image: */
 }
 
-.quote {
+/*.quote {
 	width: 100%;
 	height: 600px;
 	font-size: 18px;
@@ -44,7 +43,7 @@ a:hover {
 	background-size: cover;
 	text-align: center;
 	position: absolute;
-}
+}*/
 
 body{
 	background-color: #fbf9f4;
@@ -57,7 +56,7 @@ footer {
 	color: white;
 	font-family: georgia;
 	font-size: 14px;
-	margin-top: auto;
+	margin-top: 30px;
 }
 
 .footerLinks a {
@@ -72,7 +71,7 @@ h1 {
 	font-weight: 300;
 	font-family: georgia;
 	color: red;
-	padding: 10px 10px 10px 10px;
+	padding: 10px 0px 10px 10px;
 	margin: auto;
 
 }
@@ -85,7 +84,7 @@ h1 {
 /* Caption text */
 .text {
   height: 100px;
-  width: 50px;
+  max-width: 500px;
   color: white;
   background-color: gray;
   border: 2px solid gray;
@@ -94,21 +93,30 @@ h1 {
   position: absolute;
   bottom: 8px;
   width: 100%;
- float: center;
   opacity: 0.5;
 }
 
 .aboutme {
 width: 100%;
 height: 400px;
-background-color: gray;
+padding: 10px 30px 10px 30px;
+}
+
+.profpic {
+	float: left;
+	width: 400px;
+	height: 300px;
+
 }
 
 .intro{
-	width: 200px;
+	width: 680px;
 	height: 200px;
-	border: 2px solid black;
+/*	border: 2px solid black;*/
 	float: right;
+	padding: 10px 30px 10px 10px;
+	margin-right: 20px;
+	color: gray;
 }
 
 h4{
@@ -119,20 +127,50 @@ h4{
 }
 
 .contact {
-	height: 200px;
-	width: 50%;
+	height: 450px;
+	width: 100%;
 }
+
 
 .followme {
 	height: 200px;
 	width: 50%;
 	float: right;
+	color: blue;
+}
+.form{
+	width: 30%;
+	height: 200px;
+	padding: 20px 20px 20px 20px;
+	float: left;
 }
 
 input {
-	height: 10px;
-	width: 100px;
+	height: 8px;
+	width: 200px;
 	padding: 10px 10px 10px 10px;
 	margin: 5px 5px 5px 5px;
+
+}
+
+.comments input {
+	height: 70px;
+	width: 200px;
+	padding-right: 10px;
+}
+
+button {
+	padding: 10px 10px 10px 10px;
+	margin: 15px 5px 20px 80px;
+}
+
+.title {
+	padding: 10px 10px 10px 10px;
+}
+.experience {
+	padding: 10px 10px 10px 10px;
+}
+.education {
+	padding: 10px 10px 10px 10px;
 }
 
